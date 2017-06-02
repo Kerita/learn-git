@@ -5,6 +5,8 @@
 
 2.[新建分支](#新建分支)
 
+3.[新建tag与删除tag](#新建tag与删除tag)
+
 ## 1.删除和重命名远程分支
 > 重命名远程分支，其实是先把远程分支删除，然后重命名本地分支，并推到远程仓库。
 
@@ -25,5 +27,12 @@
   git push origin dev
 ```
 
+## 3.新建tag与删除tag
 
+```
+git tag -a tagname -m "taginfo"
+git push origin tagname
+git tag -d tagname
+git push origin --delete tag tagname
+```
 
