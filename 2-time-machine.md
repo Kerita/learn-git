@@ -1,7 +1,14 @@
 # 时光机穿梭
 
-## 1.查看仓库当前状况与修改
+## 1.查看
+
+- 查看当前仓库状况，做了哪些修改
+
 ```
-git status
-git diff filename
+  git status
+```
+
+- 对比某个文件与上个commit的区别
+```
+  git diff filename
 ```
