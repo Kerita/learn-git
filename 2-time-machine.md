@@ -28,6 +28,10 @@ git reflog
 git reset --hard newcommitid
 ```
 
-## 3.git checkout -- filename
+## 3.将文件回到最近一次add或者commit
+如果没有--，就变成git checkout branchname，切换到某个分支
+```
+git checkout -- filename
+```
 
-将文件回到最近一次add或者commit
+
