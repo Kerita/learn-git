@@ -23,15 +23,20 @@
 
 HEAD表示当前版本，HEAD^表示上一个版本,以此类推HEAD~100,commitid也可以是这些。
 ```
-git reset --hard oldcommitid
-git reflog
-git reset --hard newcommitid
+  git reset --hard oldcommitid
+  git reflog
+  git reset --hard newcommitid
 ```
 
 ## 3.将文件回到最近一次add或者commit
 如果没有--，就变成git checkout branchname，切换到某个分支
 ```
-git checkout -- filename
+  git checkout -- filename
+```
+
+## 4.舍弃暂存区里的文件
+```
+  git reset --hard filename
 ```
 
 
