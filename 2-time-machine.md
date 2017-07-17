@@ -40,8 +40,3 @@ HEAD表示当前版本，HEAD^表示上一个版本,以此类推HEAD~100,commiti
 ```
 
 
-## 5.测试git-extra
-```
-  git changelog
-```
-

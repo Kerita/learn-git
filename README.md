@@ -52,4 +52,9 @@ git commit -m "ignore take effect"
 git push origin master
 ```
 
+## 5.测试git-extra
+```
+  git changelog
+```
+
 
