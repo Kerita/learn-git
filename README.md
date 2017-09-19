@@ -57,6 +57,14 @@ git push origin master
   git changelog
 ```
 
-## 
+## 6.配置 git 对文件名大小写敏感
+```
+git config core.ignorecase false
+```
+
+## 7.不追踪某文件
+```
+git rm Readme.md
+```
 
 
