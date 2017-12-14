@@ -67,4 +67,10 @@ git config core.ignorecase false
 git rm Readme.md
 ```
 
+## 8.拉取远程分支并创建本地分支
+第一个为远程分支名称，第二个为本地分支名称
+```
+git fetch origin feature-area:feature-area
+```
+
 
